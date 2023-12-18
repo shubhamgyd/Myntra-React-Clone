@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <main>
         <div className="items-container"></div>
-        {items.map(item => <HomeItem item={item} />)}
+        {items.map(item => <HomeItem key={item.id} item={item} />)}
       </main>
     </>
   );
