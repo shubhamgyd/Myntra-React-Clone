@@ -1,4 +1,6 @@
 import { BsFillPersonFill } from "react-icons/bs"
+import { BsEmojiSmile } from "react-icons/bs"
+import { GiShoppingBag } from "react-icons/gi"
 
 const Header = () => {
   return (
@@ -37,10 +39,12 @@ const Header = () => {
           </div>
 
           <div className="action_container">
+            <BsEmojiSmile />
             <span className="action_name">Wishlist</span>
           </div>
 
           <a className="action_container" href="pages/bag.html">
+            <GiShoppingBag />
             <span className="action_name">Bag</span>
             <span className="bag-item-count">0</span>
           </a>
