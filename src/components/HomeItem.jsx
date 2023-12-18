@@ -1,4 +1,5 @@
 const HomeItem = ({item}) => {
+
   return (
     <>
       <div className="item-container">
@@ -13,7 +14,7 @@ const HomeItem = ({item}) => {
           <span className="original-price">Rs {item.original_price}</span>
           <span className="discount">({item.discount_percentage}% OFF)</span>
         </div>
-        <button className="btn-add-bag" onclick={() => console.log("item was clicked")}>
+        <button className="btn-add-bag" onClick={() => console.log("item was clicked")}>
           Add to Bag
         </button>
       </div>
