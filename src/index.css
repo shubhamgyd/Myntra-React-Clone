@@ -151,7 +151,6 @@ header {
 .item-container {
   width: 250px;
   margin: 10px;
-  display: inline-block;
 }
 .item-image {
   width: 100%;
@@ -212,7 +211,7 @@ header {
   margin-top: 8px;
   font-size: 18px;
   width: 100%;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   border: none;
   padding: 5px 15px;
   border-radius: 10px;
@@ -240,7 +239,6 @@ header {
 a.action_container:link {
   color:black;
 }
-
 .bag-items-container {
   display: inline-block;
   width: 64%;
@@ -376,4 +374,8 @@ a.action_container:link {
   width: 14px;
   height: 14px;
   cursor: pointer;
+}
+
+.spinner {
+  margin: 100px 0px;
 }

@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import FetchItems from "../components/FetchItems";
 import { useSelector } from "react-redux";
 import LoadingSpinner from "../components/LoadingSpinner";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
 
