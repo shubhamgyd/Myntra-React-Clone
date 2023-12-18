@@ -17,7 +17,7 @@ const Home = () => {
       count: 1400,
     },
   };
-  
+
   return (
     <>
       <main>
